@@ -32,7 +32,9 @@ main {
   width: 572px;
   height: 512px;
   padding-left: 90px;
+  padding-top: 55px;
   border-radius: 4px;
+  
 }
 
 .titulo {
@@ -40,6 +42,7 @@ main {
   font-weight: 600;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
   
 }
 .subtitulo {
@@ -63,8 +66,8 @@ main {
 .texto3{
   font-family: sans-serif;
   font-weight:600 ;
-  font-size: 14px;
-  margin-left:80px ;
+  font-size: 15px;
+  margin-left:70px ;
   color: #FFC632;
 }
 .texto4{
@@ -84,7 +87,9 @@ main {
   background-color: #24221F;
   font-size: 15px;
   color: #d4ccb6;
+  
 }
+
 .campo1 {
   width: 335px;
   height: 30px;
@@ -116,6 +121,8 @@ main {
     height: 20px;
     border: 1px solid #868686;
     border-radius: 4px;
+    
+    
 }
 .logo{
     margin-left: 10px;
