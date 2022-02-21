@@ -83,6 +83,9 @@ main {
   background-color: #24221f;
   font-size: 15px;
   color: #d4ccb6;
+  cursor: pointer;
+  
+  
 }
 .campo::placeholder {
   background-image: url(./images/mail-focus.svg);
@@ -100,14 +103,22 @@ main {
   background-color: #24221f;
   color: #d4ccb6;
   font-size: 15px;
+  cursor: pointer;
+  background-image: url(./images/eye.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.5em center;
+  
 }
 
 .campo1::placeholder {
-  background-image: url(./images/lock.svg);
+  background-image: url(./images/lock.svg ); 
   background-repeat: no-repeat;
   padding-left: 35px;
   background-position: 0.5em center;
+  
+  
 }
+
 .button {
   width: 334px;
   height: 51px;
@@ -118,6 +129,7 @@ main {
   font-weight: 600;
   color: #473404;
   font-family: sans-serif;
+  cursor: pointer;
 }
 .button:hover {
   background-color: aliceblue;
@@ -128,6 +140,7 @@ main {
   height: 20px;
   border: 1px solid #868686;
   border-radius: 4px;
+  cursor: pointer;
 }
 .logo {
   margin-left: 10px;
